@@ -1,0 +1,9 @@
+Format: Name, initial disposition, feelings about mechanical: angry, sad, confused, neutral, inquisitive, happy, excited, feelings about vocal: angry, sad, confused, neutral, inquisitive, happy, excited
+Jeoff,3,0,20,1,-5,40,40,40,-5,40,50,50,40,40,50
+Catherine,-3,-40,-40,-40,-40,-40,-40,-40,-40,-40,0,0,40,40,-20
+Dale,10,-40,-40,20,1,40,25,50,-50,-50,-50,1,2,4,8
+Jennifer,3,0,50,0,-10,-10,20,-1,-10,5,40,50,50,40,25
+Sally,7,5,0,0,0,10,50,40,-40,-40,10,-10,50,40,50
+Peter,8,-5,40,40,20,40,25,50,-50,5,0,0,40,40,40
+Gina,-4,-1,-1,-5,-1,0,-1,-1,-1,0,0,0,5,10,-20
+Richard,-9,-40,10,-5,-5,-5,1,-5,-5,1,-5,0,5,5,5
