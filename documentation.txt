@@ -1,0 +1,42 @@
+
+
+-dispositions	| how this character feels which will determine their actions and how other characters will feel about them
+
+			  angry       sad      confused    neutral  inquisitive   happy     excited
+	emotion	scale	-10 -9 -8   -7 -6 -5   -4 -3 -2   -1  0  1    2  3  4    5  6  7    8  9  10	
+
+-perceptions	| how this character sees all other characters on a likeability scale negative or positive, this is updated when the character performs an output and picks a focus object
+
+	characterA 10
+	characterB -5
+
+-outputs	| how the character interacts with a target they choose or respond to based on how they are feeling and how they feel about the target
+
+	get list of close objects, narrow down to list of objects tagging this character if any. pick random from tagging characters or if there are none pick from close objects, or pick none for ambient 
+	If this character has a focus object (chosen at random or from a character tagging this one), check the outputs on the focus character and update this characters perception of the focus character
+	and then aim a verbal or mechanical action at them based on the emotion scale
+	If this character has no focus object, perform a targetless/ ambient vocal or mechanical action based on the emotion scale
+
+-input preferences  | how this character responds emotionally to inputs from other characters and how this character can change their emotional response to inputs based on their perception of other characters
+	
+	the existing input preference score of an input from another character is added to the perception score of that character, 
+	then the perception score of the sending character is added to the preference score of the input
+
+	-mechanical
+		angry		2
+		sad		0
+		confused	-2
+		neutral		-1
+		inquisitive	0
+		happy		10
+		excited		10
+	-verbal
+		angry		-3
+		sad		0
+		confused	1
+		neutral		0
+		inquisitive	6
+		happy		10
+		excited		20
+
+
